@@ -78,6 +78,7 @@ def get_reductions():
     reductions.append(Reduction(PROBLEMS["SC"], PROBLEMS["VC"]))
 
     reductions.append(Reduction(PROBLEMS["3COL"], PROBLEMS["7COL"]))
+    reductions.append(Reduction(PROBLEMS["3COL"], PROBLEMS["SAT"]))
 
     reductions.append(Reduction(PROBLEMS["HC"], PROBLEMS["TSP"]))
     reductions.append(Reduction(PROBLEMS["HC"], PROBLEMS["HP"]))
